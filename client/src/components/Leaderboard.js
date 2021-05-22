@@ -12,7 +12,7 @@ const Leaderboard = () =>{
     const[sortBy, setSortBy]= useState("total");
 
     useEffect(()=>{
-        fetch(`http://localhost:3000/leaderboard/?sortBy=`+sortBy).then((result)=>{
+        fetch(`https://marks-dashboard.herokuapp.com/leaderboard/?sortBy=`+sortBy).then((result)=>{
         result.json().then((res)=>{
         setStudents(res.students);
     })
