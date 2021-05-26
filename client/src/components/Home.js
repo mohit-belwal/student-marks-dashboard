@@ -20,7 +20,7 @@ const Home = () =>{
                     </div>
                     <br></br>
                     <div className="text-center">
-                        <Link to="/leaderboard">
+                        <Link to="/leader-board">
                             <button className="btn btn-primary mb-3">View Leaderboard</button>
                         </Link>
                     </div>
