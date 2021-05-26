@@ -17,25 +17,10 @@ const Navbar = () =>{
                             <NavLink className="nav-link" to="/marks">Enter Marks</NavLink>
                             </li>
                             <li className="nav-item">
-                            <NavLink className="nav-link" to="/leaderboard">View Leaderboard</NavLink>
+                            <NavLink className="nav-link" to="/leader-board">View Leaderboard</NavLink>
                             </li>
                         </ul>
                     </div>
-                    {/* <li class="nav-item dropdown">
-                        <NavLink class="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </NavLink>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <NavLink class="dropdown-item" to="#">Action</NavLink>
-                        <NavLink class="dropdown-item" to="#">Another action</NavLink>
-                        <div class="dropdown-divider"></div>
-                        <NavLink class="dropdown-item" to="#">Something else here</NavLink>
-                        </div>
-                    </li>
-                    <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form> */}
                 </div>
             </nav>
         </>
