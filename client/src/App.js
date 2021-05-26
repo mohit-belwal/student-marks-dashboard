@@ -14,12 +14,12 @@ function App() {
         <Home/>
       </Route>
 
-      <Route path="/marks">
+      <Route exact path="/marks">
         <Navbar/>
         <Marks/>
       </Route>
 
-      <Route path="/leaderboard">
+      <Route exact path="/leader-board">
         <Leaderboard/>
       </Route>
     </>
