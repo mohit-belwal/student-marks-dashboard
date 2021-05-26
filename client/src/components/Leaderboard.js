@@ -52,7 +52,7 @@ const Leaderboard = () =>{
                           <NavLink className="nav-link" to="/marks">Enter Marks</NavLink>
                           </li>
                           <li className="nav-item">
-                          <NavLink className="nav-link" to="/leaderboard">View Leaderboard</NavLink>
+                          <NavLink className="nav-link" to="/leade-rboard">View Leaderboard</NavLink>
                           </li>
                           <li className="nav-item">
                           <NavLink className="nav-link" to="#">Sort By</NavLink>
